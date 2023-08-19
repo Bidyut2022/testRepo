@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgreen;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  width: 30%;
+  height: 30%;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+form{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap:25px;
+}
+
+.content h1{
+  text-align: center;
+  margin: 10px 0;
+}
+.content button{
+  width: 80px;
+  height: 25px;
+  padding: 5px 10px;
+  background-color: green;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+
+}
+input{
+  border-radius: 10px;
+  padding: 5px;
+}
+.content button:hover{
+  background-color: black;
+  color: white;
+}
